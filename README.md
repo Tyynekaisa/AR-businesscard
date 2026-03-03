@@ -12,9 +12,9 @@ Author: **Kaisa Juhola**
 
 Target is made with [Image Targets Compiler](https://hiukim.github.io/mind-ar-js-doc/tools/compile).
 
-Target image: [assets/images/Target_card.png](/AR%20kayntikortti/images/Target_card.png)
+Target image: [assets/images/Target_card.png](images/Target_card.png)
 
-![Target Business Card](/images/Target_card.png)
+![Target Business Card](images/Target_card.png)
 
 ## Libs
 
