@@ -16,6 +16,10 @@ Target image: [assets/images/Target_card.png](images/Target_card.png)
 
 ![Target Business Card](images/Target_card.png)
 
+## QR-code
+
+[![QR-code](images/qr_businesscard.png)](https://tyynekaisa.github.io/AR-businesscard/)  
+
 ## Libs
 
 * [MindAR](https://hiukim.github.io/mind-ar-js-doc/)
