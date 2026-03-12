@@ -1,9 +1,9 @@
-# AR kayntikortti
+# AR käyntikortti
 
 Course: **AT00BY28-3009 Web peliympäristöt**  
 School: **LAB University of Applied Sciences**  
 Assignment: **AR Business Card**  
-Updated: **3.3.2026**  
+Updated: **12.3.2026**  
 Author: **Kaisa Juhola**  
 
 ---

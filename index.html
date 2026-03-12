@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="NN">
+    <meta name="author" content="Kaisa Juhola">
 
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
@@ -20,16 +20,71 @@
 </head>
 
 <body>
-    <div class="ar-example" id="ar-example">
-        <!-- Testisisältö -->
-        <video src="assets/videos/windmill_audio.mp4" class="vid" id="vid" controls></video>
-        <div class="controls" id="controls">
-            <div class="control play" id="play">PLAY</div>
-            <div class="control pause" id="pause">PAUSE</div>
-            <div class="control stop" id="stop">STOP</div>
+    <div class="ar-container" id="ar-container">
+        <div class="box header" id="header">
+            <div class="title" id="title">
+                <h2>Nice to meet you!</h2>
+            </div>
         </div>
+
+        <div class="box links" id="links">
+            <ul>
+                <li><a href="https://github.com/Tyynekaisa" target="_blank">
+                    <img src="images/github_icon.png" alt="Github icon"></a></li>
+                <li><a href="https://www.linkedin.com/in/anna-kaisa-juhola/" target="_blank">
+                    <img src="images/linkedin_icon.png" alt="LinkedIn icon"></a></li>
+                <li><a href="mailto:kaisa.juhola@student.lab.fi" target="_blank">
+                    <img src="images/email_icon.png" alt="Email icon"></a></li>
+                <li><a href="https://www.instagram.com/artbyannakaisa/" target="_blank">
+                    <img src="images/instagram_icon.png" alt="Instagram icon"></a></li>
+            </ul>
+        </div>
+        <div class="box card" id="card">
+
+            <img src="images/Target_card.png" class="card-image" id="card-image">
+
+            <div class="video-wrapper" id="video-wrapper">
+
+                <div class="video-close" id="video-close">✕</div>
+
+                <video src="assets/videos/my_hobbies.mp4" class="video" id="video"></video>
+
+                <div class="controls" id="controls">
+                    <div class="control play" id="play">PLAY</div>
+                    <div class="control pause" id="pause">PAUSE</div>
+                    <div class="control stop" id="stop">STOP</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="box buttons" id="buttons">
+            
+            <div class="button portfolio" id="portfolio">
+                <a href="https://tyynekaisa.github.io/Portfolio/" target="_blank">Portfolio</a>
+            </div>
+            <div class="button cv" id="cv">
+                <a href="https://www.canva.com/design/DAG783q2lbA/A0xHg6oDjAldKMLgndz_mA/view?utm_content=DAG783q2lbA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha85c7d9c6e" target="_blank">
+                CV</a>
+            </div>
+            <div class="button hobbies" id="hobbies">
+                <a href="#">
+                    <i class="arrow left" id="hobby-arrow"></i>
+                    <span id="hobby-text">Hobbies</span>
+                </a>
+            </div>
+            
+        </div>
+        
+        <div class="box aboutme" id="aboutme">
+            <h3>About me</h3>
+            <p>I’m a full-stack developer with a soft spot for the frontend, which is the place where code gets to look pretty and behave nicely. When I’m not wrangling components and APIs, you’ll probably find me painting, crafting, or dancing around like nobody’s watching.</p> <p>My favorite color is pink, my favorite animal is the cat (obviously the <del>internet’s</del> world's true ruler), and while I may technically be a middle-aged woman, my mind is still happily young and curiosity-driven. NO TIGHT FLOWER HATS HERE!</p>
+        </div>
+        
+        
+    </div>
     <script src="libs/mindar/mindar-image-three.prod.js"></script>
     <script type="module" src="js/main.js"></script>
+    
     
 </body>
 </html>
