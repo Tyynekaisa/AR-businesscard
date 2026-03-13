@@ -293,12 +293,58 @@ ul li {
   transition: transform 0.3s ease;
 }
 
-.right {
+.right-down {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
 
-.left {
+.left-up {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+}
+
+/* Media query */
+@media (max-width: 1200px) {
+    .ar-container {
+        width: 1000px;
+        grid-template-areas: 
+        "header"
+        "links"
+        "card"
+        "buttons"
+        "aboutme";
+    }
+
+    .buttons {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links {
+        width: 100%;
+        height: auto;
+    }
+
+    .links ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .right-down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin-bottom: 8px;
+    }
+
+    .left-up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+    }
 }

@@ -12,7 +12,7 @@ async function startAR() {
         imageTargetSrc: "assets/targets/target_card.mind"
     })
 
-    const { cssRenderer, renderer, cssScene, scene, camera } = mindARThreeJs
+    const { cssRenderer, renderer, cssScene, camera } = mindARThreeJs
 
     const container = new CSS3DObject(document.querySelector("#ar-container"))
     const anchor = mindARThreeJs.addCSSAnchor(0)
@@ -51,8 +51,8 @@ async function startAR() {
         video.play()
 
         hobbyText.textContent = "Close"
-        hobbyArrow.classList.remove("left")
-        hobbyArrow.classList.add("right")
+        hobbyArrow.classList.remove("left-up")
+        hobbyArrow.classList.add("right-down")
 
     }
 
@@ -62,8 +62,8 @@ async function startAR() {
         videoWrapper.classList.remove("active")
 
         hobbyText.textContent = "Hobbies"
-        hobbyArrow.classList.remove("right")
-        hobbyArrow.classList.add("left")
+        hobbyArrow.classList.remove("right-down")
+        hobbyArrow.classList.add("left-up")
     }
 
     play.addEventListener("click", () => {
